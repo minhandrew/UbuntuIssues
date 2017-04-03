@@ -1,0 +1,11 @@
+Cách fix lỗi screenshot "2 màn hình":
+Tóm tắt, ta có solution như sau:
+B1: Nhập câu lệnh sau vào terminal: sudo apt-get install xdotool. Nếu máy bạn chưa cài python3-pil thì nhập tiếp câu lệnh sau để cài: sudo apt-get install python3-pil
+B2: Copy đoạn code sau vào text editor rồi save với tên crop_screenshot.py : http://ideone.com/Vn43s5
+*Lưu ý: Trong phần head section, các bạn có thể đặt tên file screenshot và đường dẫn sẽ lưu mà mình thích.
+B3: (Test) Bật terminal lên và chạy dòng lệnh sau: python3 <đường dẫn của file python vừa tạo>. VD: python3 /home/andrew/crop_screenshot.py
+B4: Nếu trong folder bạn lưu những ảnh screenshot được chụp có 2 bức ảnh mà vừa screenshot xong (1 bức "2 màn hình" và 1 bức "1 màn hình") thì có thể nói đoạn code trên đã hoạt động bình thường. Lúc này, bạn vào System settings > Keyboard > Shortcuts > Custom Shortcuts. Click vào dấu cộng và nhập ở ô command nội dung sau: python3 <đường dẫn file python được lưu>. VD: python3 /home/andrew/crop_screenshot.py.
+Còn ô Name các bạn đặt tùy ý.
+B5: Sau khi nhập xong, các bạn chọn Apply, một dòng sẽ xuất hiện ở khung bên phải, các bạn nhấp vào chữ Disable, sau đó bấm phím PrntScr trên bàn phím.
+Thế là đã set up xong, giờ các bạn thử bấm phím PrntScr, trên đường dẫn mà các bạn đã chọn sẽ có 2 bức screenshot, 1 bức "1 màn hình" và 1 bức "2 màn hình". Các bạn có thể dùng bức "1 màn hình", còn bức kia có thể xóa đi.
+*Lưu ý: Sau một thời gian, lỗi này sẽ tự mất đi ?!

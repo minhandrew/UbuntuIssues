@@ -1,0 +1,4 @@
+Lệnh xem cấu hình máy trên Ubuntu:
+sudo dmidecode -t memory
+hoặc
+sudo lshw -class memory
