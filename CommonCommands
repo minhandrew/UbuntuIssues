@@ -1,0 +1,9 @@
+pidof <process name>: xem id của 1 process
+kill -9 <process id>: kill process có id được nhập vào.
+man ...: xem chi tiết lệnh/hàm.
+info ...: như lệnh man.
+ps ax: hiển thị các tiến trình (process) đang chạy.
+(sudo) (/sbin/)shutdown -h/-r +t/now "warning"
+w hoặc who: hiển thị chi tiết các users ....
+date: hiển thị giờ/thứ/ngày hiện tại.
+cal -<year>: hiển thị lịch của năm nhập vào, nếu không có tham số <year> thì sẽ hiện lịch năm hiện tại.
