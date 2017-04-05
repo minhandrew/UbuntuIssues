@@ -7,3 +7,5 @@ ps ax: hiển thị các tiến trình (process) đang chạy.
 w hoặc who: hiển thị chi tiết các users ....
 date: hiển thị giờ/thứ/ngày hiện tại.
 cal -<year>: hiển thị lịch của năm nhập vào, nếu không có tham số <year> thì sẽ hiện lịch năm hiện tại.
+history: hiển thị tất cả các command đã sử dụng trong quá khứ.
+history -c: Xóa tất cả các command đã sử dụng trong quá khứ khỏi trình search. (giống như xóa browsing data trên Chrome)
