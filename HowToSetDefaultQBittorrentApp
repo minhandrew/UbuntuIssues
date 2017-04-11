@@ -1,0 +1,19 @@
+Answers:
+
+1. In escence you have to make sure your apps's .desktop file on:
+/usr/share/applications
+has this line:
+MimeType=application/x-bittorrent;application/x-torrent;
+and then add/edit this line on /usr/share/applications/defaults.list:
+x-scheme-handler/magnet={$MYAPP}.desktop;
+setting the correct app name of course.
+
+2. Firstly we need to check that your program's ".desktop file" (in /usr/share/applications) has this line:
+MimeType=application/x-bittorrent;application/x-torrent;
+To check, open the text editor (called gedit) and hit "open" up to the left, then navigate to your program's .desktop file. As stated; you should find it in the folder /usr/share/applications. After you open it, search for "MimeType" (by pressing Ctrl+F and typing "MimeType" in the box that shows up).
+...If you did find that it has this line then proceed. (if not then just paste the line wherever in between the lines. Or if you find the line incomplete then you can modify the existing line.) Close gedit.
+Now that we've done the checking; open the file /usr/share/applications/defaults.list (the same way you opened the .desktop file). Search for "x-scheme-handler/magnet" (same way also). If you found it, make it look like this;
+x-scheme-handler/magnet=YOURPROGRAM.desktop;
+Replace YOURPROGRAM by the program you want to set default. The name must exactly match the name of your program's .desktop file.
+example: x-scheme-handler/magnet=kde4-ktorrent.desktop;
+And you're done!
