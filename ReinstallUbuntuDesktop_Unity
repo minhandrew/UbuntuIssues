@@ -1,4 +1,4 @@
 Reinstall unbuntu desktop and unity:
 (- sudo apt-get update)
 - sudo apt-get install --reinstall ubuntu-desktop
-- sudo apt-get install --reinstall unity hoặc sudo apt-get install unity
+- sudo apt-get install --reinstall unity or sudo apt-get install unity
