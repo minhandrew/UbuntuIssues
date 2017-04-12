@@ -1,13 +1,14 @@
 SOME COMMON COMMANDS ON UBUNTU:
 
-pidof <process name>: view id of a process
-kill -9 <process id>: kill process has the id.
-man ...: view detail the command/function.
-info ...: view detail the command/function.
-ps ax: show all running processes.
+pidof <process name>: Viewing id of a process
+kill -9 <process id>: Killing process has the id.
+man ...: Viewing detail the command/function.
+info ...: Viewing detail the command/function.
+ps ax: Showing all running processes.
 (sudo) (/sbin/)shutdown -h/-r +t/now "warning": Shutdown computer.
-w hoặc who: show detail all users.
+w hoặc who: Showing detail all users.
 date:
 cal -<year>:
 history:
-history -c: Delete all commands have been entered.
+history -c: Deleting all commands have been entered.
+sudo dmidecode -t memory or sudo lshw -class memory: Viewing PC's configuration.
