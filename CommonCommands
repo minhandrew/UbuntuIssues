@@ -1,11 +1,13 @@
-pidof <process name>: xem id của 1 process
-kill -9 <process id>: kill process có id được nhập vào.
-man ...: xem chi tiết lệnh/hàm.
-info ...: như lệnh man.
-ps ax: hiển thị các tiến trình (process) đang chạy.
-(sudo) (/sbin/)shutdown -h/-r +t/now "warning"
-w hoặc who: hiển thị chi tiết các users ....
-date: hiển thị giờ/thứ/ngày hiện tại.
-cal -<year>: hiển thị lịch của năm nhập vào, nếu không có tham số <year> thì sẽ hiện lịch năm hiện tại.
-history: hiển thị tất cả các command đã sử dụng trong quá khứ.
-history -c: Xóa tất cả các command đã sử dụng trong quá khứ khỏi trình search. (giống như xóa browsing data trên Chrome)
+SOME COMMON COMMANDS ON UBUNTU:
+
+pidof <process name>: view id of a process
+kill -9 <process id>: kill process has the id.
+man ...: view detail the command/function.
+info ...: view detail the command/function.
+ps ax: show all running processes.
+(sudo) (/sbin/)shutdown -h/-r +t/now "warning": Shutdown computer.
+w hoặc who: show detail all users.
+date:
+cal -<year>:
+history:
+history -c: Delete all commands have been entered.
