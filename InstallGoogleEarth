@@ -1,0 +1,14 @@
+To install Google Earth, just press Ctrl+Alt+T on your keyboard to open Terminal. When it opens, run the command(s) below:
+
+For 32bit
+
+wget http://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
+
+For 64bit
+
+wget http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
+
+Once the download is done, just do the 2 commands below:
+
+sudo dpkg -i google-earth-stable*.deb
+sudo apt-get -f install
