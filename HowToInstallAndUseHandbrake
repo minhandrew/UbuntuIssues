@@ -1,0 +1,14 @@
+INSTALL:
+
+Fetch PPA's key: sudo add-apt-repository ppa:stebbins/handbrake-releases
+Update the list of software repos: sudo apt-get update
+Install Handbrake: sudo apt-get install handbrake
+
+USING:
+
+Step 1: Click "Source" button at the top, on the left on the window, then choose the video you want to insert subtitles.
+Step 2: At the bottom, click "Subtitle list" tab, click "Add" button and then, choose the file .srt that has the subtitles to insert to the video. Remember to tick on "Burn into video".
+Step 3: Choose the location you want to export the subtitle-inserting video at the box above the "Summary" tab.
+Step 4: Click Start and wait !
+
+Good luck!
