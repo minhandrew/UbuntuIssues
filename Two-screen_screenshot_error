@@ -1,3 +1,5 @@
+A TEMPORARY WAY TO FIX 2-SCREENSHOT SCREENSHOT ERROR ON UBUNTU:
+
 Cách fix lỗi screenshot "2 màn hình":
 Tóm tắt, ta có solution như sau:
 B1: Nhập câu lệnh sau vào terminal: sudo apt-get install xdotool. Nếu máy bạn chưa cài python3-pil thì nhập tiếp câu lệnh sau để cài: sudo apt-get install python3-pil
